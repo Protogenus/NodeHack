@@ -25,7 +25,7 @@ class Hacker:
         
     def exploit(self):
         # Try to exploit the Node to gain access.
-        payload = ["malware ", "phishing ", "trojan "]
+        payload = ["network vulnerability ", "OS vulnerability ", "process vulnerability "]
         print("----Attempting to send " + random.choice(payload) + "payload.----")
         n = random.randint(1, 20) + self.atk
         # If ranom int + the hackers atk stat is greater than the Nodes defense the node is infected.
